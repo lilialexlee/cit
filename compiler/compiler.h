@@ -8,8 +8,8 @@ using namespace std;
 class Compiler
 {
 public:
-	Compiler(bool l,bool sy,bool se,bool g,bool t);
-	void genCommonFile();//产生必需共用的目标文件
-	void compile(char* name);//编译
+    Compiler(bool l,bool sy,bool se,bool g,bool t);
+    void genCommonFile();//产生必需共用的目标文件
+    void compile(char* name);//编译
 };
 #endif
